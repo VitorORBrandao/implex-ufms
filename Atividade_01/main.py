@@ -16,13 +16,13 @@ def main():
   printers.output_time_metrics(inc, fim, stp, rpt, generators.generate_random_array)
   
   printers.print_and_save("\n[[REVERSE]]")
-  printers.output_time_metrics(inc, fim, stp, rpt, generators.generete_reverse_array)
+  printers.output_time_metrics(inc, fim, stp, 1, generators.generete_reverse_array)
   
   printers.print_and_save("\n[[SORTED]]")
-  printers.output_time_metrics(inc, fim, stp, rpt, generators.generate_sorted_array)
+  printers.output_time_metrics(inc, fim, stp, 1, generators.generate_sorted_array)
   
   printers.print_and_save("\n[[NEARLY SORTED]]")
-  printers.output_time_metrics(inc, fim, stp, rpt, generators.generate_nearly_sorted_array)
+  printers.output_time_metrics(inc, fim, stp, 1, generators.generate_nearly_sorted_array)
 
 
 if __name__ == '__main__':
