@@ -5,13 +5,13 @@ from helpers import heapify
 def selection_sort(arr):
   
   for i in range(len(arr)):
-    minIndex = i
+    min_index = i
   
-    for j in range(i+1,len(arr)):
-  
-      if arr[j] < arr[minIndex]:
-        minIndex = j
-    arr[i],arr[minIndex] = arr[minIndex],arr[i] # Troca o elemento mínimo encontrado com o elemento na posição 'i'
+    for j in range(i+1, len(arr)):
+      if arr[j] < arr[min_index]:
+        min_index = j
+    # Troca o elemento mínimo encontrado com o elemento na posição 'i'
+    arr[i], arr[min_index] = arr[min_index], arr[i]
 
 # Função de ordenação Insertion Sort
 def insertion_sort(arr):
