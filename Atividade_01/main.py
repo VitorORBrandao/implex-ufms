@@ -1,5 +1,6 @@
 import generators
 import printers
+import sorters
 
 
 def main():
@@ -9,7 +10,7 @@ def main():
   # rpt = int(input("Repeat: "))
   
   # Define os valores iniciais para as variáveis
-  inc, fim, stp, rpt = 10, 20, 5, 3
+  inc, fim, stp, rpt = 100, 200, 10, 5
 
   # Imprime e escreve os resultados para diferentes tipos de arrays
   printers.print_and_save("[[RANDOM]]")
