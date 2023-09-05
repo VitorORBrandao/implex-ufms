@@ -1,3 +1,7 @@
+# Alunos:                         RGA:
+# Vítor Oliveira Resende Brandão  2021.1906.027-1
+# Caue Maldonado Lima             2021.1906.
+
 import generators
 import printers
 import os
@@ -24,7 +28,7 @@ def main():
   # rpt = int(input("Repeat: "))
 
   # Define os valores iniciais para as variáveis
-  inc, fim, stp, rpt = 1000, 5000, 1000, 10
+  inc, fim, stp, rpt = 2000, 20000, 2000, 5
 
   # Imprime e escreve os resultados para diferentes tipos de arrays
   printers.print_and_save("[[RANDOM]]") 
