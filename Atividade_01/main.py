@@ -1,6 +1,6 @@
-# Alunos:                         RGA:
-# Vítor Oliveira Resende Brandão  2021.1906.027-1
-# Caue Maldonado Lima             2021.1906.
+# Alunos:
+# Vítor Oliveira Resende Brandão
+# Caue Maldonado Lima
 
 import generators
 import printers
