@@ -4,21 +4,11 @@
 
 
 from printers import output_metrics
-import os
-
-
-def create_empty_file(file_name):
-  # Verificar se o arquivo existe
-  if os.path.exists(file_name):
-    # Se o arquivo existe, deleta ele
-    os.remove(file_name)
-  
-  # Cria um novo arquivo vazio
-  with open(file_name, 'w'):
-    pass
+from helpers import create_empty_file
 
 
 def main():
+  # Cria um novo arquivo para o armazenamento dos resultados
   file_name = "results.txt"
   create_empty_file(file_name)
 
